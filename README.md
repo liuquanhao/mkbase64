@@ -25,3 +25,8 @@ mkbase64
 当需要把ss://base64 code制作成QR二维码的时候，
 如果base64 code最后有“=”号，需要**忽略**它们，
 然后将它复制到Qreator(Ubuntu软件中心可以找到)的“文本”菜单下的文本框中即可得到config.json的二维码。
+
+当需要清空.base64的文件是，运行：
+> $ mkbase64.sh remove
+
+即可。
